@@ -6,6 +6,9 @@ Difference-guided Multi-directional Complementary  Network for Remote Sensing Im
 # Pretrained Weights
 https://huggingface.co/timm/convnext_tiny.in12k_ft_in1k
 
+# Data Preprocessing
+Download the datasets from the official website and split them yourself.
+
 
 # Training
 python DGMDC/train_supervision.py -c DGMDC/config/uavid/***.py
