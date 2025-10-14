@@ -126,25 +126,27 @@ python DGMDC/vaihingen_test.py -c DGMDC/config/vaihingen/DGMDC_config.py -o fig_
 ```
 **Potsdam**  
 ```
-python DGMDC/potsdam_test.py -c GeoSeg/config/potsdam/DGMDC_config.py -o fig_results/potsdam/DGMDC --rgb -t 'lr'
+python DGMDC/potsdam_test.py -c DGMDC/config/potsdam/DGMDC_config.py -o fig_results/potsdam/DGMDC --rgb -t 'lr'
 ```
 **Uavid**  
 ```
 python DGMDC/inference_uavid.py \
 -i 'data/uavid/uavid_test' \
--c GeoSeg/config/uavid/DGMDC_config.py \
+-c DGMDC/config/uavid/DGMDC_config.py \
 -o fig_results/uavid/DGMDC \
 -t 'lr' -ph 1152 -pw 1024 -b 2 -d "uavid"
 ```
 **LoveDA**  
 ```
-python DGMDC/loveda_test.py -c GeoSeg/config/loveda/DGMDC_config.py -o fig_results/loveda/DGMDC -t 'd4'
+python DGMDC/loveda_test.py -c DGMDC/config/loveda/DGMDC_config.py -o fig_results/loveda/DGMDC -t 'd4'
 ```
-#Inference on huge remote sensing image
+
+# Inference on huge remote sensing image
 ```
-python M/inference_huge_image.py \
+python DGMDC/inference_huge_image.py \
 -i data/vaihingen/test_images \
--c GeoSeg/config/vaihingen/dcswin.py \
--o fig_results/vaihingen/dcswin_huge \
+-c DGMDC/config/vaihingen/DGMDC_config.py \
+-o fig_results/vaihingen/DGMDC \
 -t 'lr' -ph 512 -pw 512 -b 2 -d "pv"
 ```
+
