@@ -69,6 +69,7 @@ python DGMDC/tools/potsdam_patch_split.py \
 --output-mask-dir "data/potsdam/test/masks_1024_rgb" \
 --mode "val" --split-size 1024 --stride 1024 \
 --gt --rgb-image
+```
 
 **Uavid**
 ```
@@ -96,7 +97,7 @@ python DGMDC/tools/uavid_patch_split.py \
 --stride-h 1024 --stride-w 1024
 ```
  
-```
+
 **LoveDA**  
 ```
 python DGMDC/tools/loveda_mask_convert.py --mask-dir data/LoveDA/Train/Rural/masks_png --output-mask-dir data/LoveDA/Train/Rural/masks_png_convert
