@@ -2,6 +2,10 @@
 Difference-guided Multi-directional Complementary  Network for Remote Sensing Imagery Semantic  Segmentation
 <img width="799" height="528" alt="image" src="https://github.com/user-attachments/assets/e51cce99-c3e0-4a87-9434-d6790696774b" />
 
+# Config
+```
+https://github.com/WangLibo1995/GeoSeg
+```
 
 # Pretrained Weights
 ```
